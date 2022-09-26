@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>before</title>
+    <!-- ----------ESTILOS-------------- -->
+    <style>
+      *{
+      
+      }
+      h1{
+        position: relative; /
+        width: 250px;
+      }
+      h1::after{
+        content: " "; 
+        display: block;
+        bottom: 3px;  /*Vertical*/     
+        position: absolute; /*para que agarre forma*/
+        border-top: 20px solid rgb(245, 0, 0);
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        left: 80px; /*para mover after horizotal*/
+      }
+      
+        div{
+            background-color: #00FFFF;
+            
+        }
+        P{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+        }
+        #p1{
+            background-color: #A52A2A;
+        }
+        #p2{
+            background-color: #DEB887;
+            float: left;
+        }
+        #p3{
+            background-color: #2aa534;
+            clear: left;
+        }
+        #p4{
+            background-color: #a187de;
+        }
+        section{
+          
+        }
+
+    </style>
+  </head>
+  <body>
+    <main>
+    <h1>2 column Design</h1>
+    <div>
+      <p id="p1"></p>
+      <p id="p2"></p>
+      <p id="p3"></p>
+      <p id="p4"></p>
+      <section>
+        This is regular content continuing after the the paragraph boxes.
+      </section>
+    </div>
+  </main>
+  </body>
+</html>

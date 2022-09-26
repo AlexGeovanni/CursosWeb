@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>modulo2</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Conte {
+        margin-top: 40px;
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .Conte div {
+        background-color: rgba(0, 0, 0,.2);
+        border: 1px solid black;
+    }
+    h1 {
+        margin-top: 40px;
+        text-align: center;
+    }
+    h2 {
+        background-color: aliceblue;
+        float: right;
+        border: 1px solid black;
+        padding: 0 10px;
+    }
+    p {
+        color: rgb(7, 4, 4);
+        clear: right;
+        padding: 15px 10px 10px 10px;
+    }
+
+    .Java h2{
+        background-color: palevioletred;
+    }
+    .HTML5 h2{
+        background-color:tomato;
+    }
+    .CSS3 h2{
+        background-color:chocolate;
+    }
+
+
+
+    @media (min-width: 992px) {
+        .Conte {
+            float: left;
+        }
+        .Conte {
+            width: 33.33%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .Conte{
+            float: left;
+        }
+        .Conte{
+            width: 50%;
+        }
+        .CSS3{
+            width: 100%; 
+        }
+    }
+
+    @media(max-width:767px){
+        .Conte{
+            float: left;
+        }
+    }
+</style>
+
+<body>
+    <main>
+        <h1 class="title">Lenguajes de Frond-end</h1>
+        <div class="conteiner">
+            <div class="Conte Java">
+                <div>
+                    <h2 class="title">Lenguajes de Frond-end</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias mollitia ea non corporis?
+                        Natus eum
+                        odit rerum laboriosam, quis aperiam eveniet minus asperiores amet quisquam saepe quibusdam
+                        perspiciatis
+                        id quam quasi officia consectetur sint. Explicabo repudiandae ducimus rerum debitis commodi
+                        similique
+                        cupiditate iusto, ea optio porro aperiam. Voluptates, aliquam fugiat.</p>
+                </div>
+            </div>
+            <div class="Conte HTML5">
+                <div>
+                    <h2 class="title">Lenguajes de Frond-end</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias mollitia ea non corporis?
+                        Natus eum
+                        odit rerum laboriosam, quis aperiam eveniet minus asperiores amet quisquam saepe quibusdam
+                        perspiciatis
+                        id quam quasi officia consectetur sint. Explicabo repudiandae ducimus rerum debitis commodi
+                        similique
+                        cupiditate iusto, ea optio porro aperiam. Voluptates, aliquam fugiat.</p>
+                </div>
+            </div>
+            <div class="Conte CSS3">
+                <div>
+                    <h2 class="title">Lenguajes de Frond-end</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias mollitia ea non corporis?
+                        Natus eum
+                        odit rerum laboriosam, quis aperiam eveniet minus asperiores amet quisquam saepe quibusdam
+                        perspiciatis
+                        id quam quasi officia consectetur sint. Explicabo repudiandae ducimus rerum debitis commodi
+                        similique
+                        cupiditate iusto, ea optio porro aperiam. Voluptates, aliquam fugiat.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+Esto es lo que necesitará para completar la tarea:
+
+
+    1._ Cree una carpeta en su repositorio que sirva como carpeta contenedora para su solución a esta tarea. Puedes llamarlo como quieras. 
+    Por ejemplo, module2-solutiono mod2_solution, etc. Cree un index.htmlarchivo dentro de la carpeta del contenedor de la solución, por ejemplo, module2-solution/index.html.
+
+    2._ La implementación de la página que creará debe seguir las ilustraciones de maqueta que se muestran a continuación. Se le proporcionan 3 maquetas: escritorio, tableta y móvil. 
+    Su implementación debe ser SOLO 1 página, NO 3 páginas. En otras palabras, creará una página única y receptiva.
+
+    3._ Su página debe incluir un archivo CSS. No se permiten estilos en línea. Su archivo CSS debe colocarse en una csscarpeta debajo de la carpeta del contenedor de la solución, por ejemplo,
+    module2-solution/css.
+
+    4._ NO se le permite utilizar ningún marco CSS (o Javascript) para esta tarea, incluido el marco CSS de Twitter Bootstrap. No se debe hacer referencia a ningún archivo CSS del marco 
+    en su index.html, incluso si no los está utilizando. Sin embargo, PUEDE usar el marco receptivo simple que desarrollamos en la Lección 24 como punto de partida para esta tarea.
+
+    5._ Debe implementar los siguientes puntos de interrupción que se considerarán de escritorio, tableta y móvil. El navegador debe mostrar una versión de escritorio del sitio cuando 
+    el ancho de la ventana del navegador es de 992 px o superior. La vista de tableta debería aparecer solo si el ancho de la ventana del navegador está entre 768 px y 991 px, inclusive. 
+    La vista móvil debe aparecer solo si el ancho del navegador es igual o inferior a 767 px.
+
+    6._ Su sitio es muy simple. Consta de un encabezado de página y 3 secciones (todo en una fila en la vista de escritorio). Cada sección contiene algo de texto. Puede convertirlo
+     en texto ficticio/"lorem ipsum", no importa. La disposición de las secciones en la pantalla depende del ancho de la ventana del navegador. ( Sugerencia: use las consultas de medios
+     discutidas en la Lección 23 ) .
+
+    7._ Diseño: en la vista de escritorio (992 px y superior), cada una de las 3 secciones debe ocupar la misma cantidad de espacio en la pantalla. A medida que hace que la ventana
+     del navegador sea más ancha o más estrecha, cada sección debería volverse más ancha o más estrecha. ( Sugerencia: use porcentajes para definir el ancho y use la propiedad 'flotante'.
+      Consulte la lección 24 ). Para obtener una referencia visual de esta vista, consulte la ilustración de la maqueta de escritorio a continuación.
+
+    8._ Diseño: en la vista de tableta (entre 768 px y 991 px, inclusive), las primeras 2 secciones deben estar en la primera fila y ser del mismo tamaño. La tercera sección debe estar en
+    la segunda fila y ocupar toda la fila por sí sola. Para obtener una referencia visual de esta vista, consulte la ilustración de la maqueta de la tableta a continuación.
+
+    9._ Diseño: en la vista móvil (igual o inferior a 767 px), cada sección debe ocupar la fila completa. Para obtener una referencia visual de esta vista, consulte la ilustración
+     de maqueta móvil a continuación.
+
+    10._ Región del título de la sección: cada sección debe tener una región del título de la sección que siempre esté ubicada en la esquina superior derecha de la sección sin importar 
+    la vista (escritorio, tableta o dispositivo móvil). Copie los títulos de la ilustración de la maqueta (es decir, pollo, carne de res, sushi) o cree los suyos propios. 
+    ( Sugerencia: use posiciones y compensaciones relativas y absolutas como se discutió en la lección 22 ) .
+
+    11._ Espaciado: preste atención al espaciado que se muestra en las ilustraciones de la maqueta. Tenga en cuenta el espacio entre las secciones (tanto horizontal como vertical). 
+    enga en cuenta el espacio horizontal entre los bordes de la sección y los bordes de la ventana del navegador. Además, tenga en cuenta el espacio entre el texto ficticio de cada 
+    sección y los bordes de la sección. Por último, asegúrese de que el texto ficticio esté lo suficientemente "empujado hacia abajo" para que no se superponga con la región del título 
+    de la sección. ( Sugerencia: use márgenes y relleno y use border-box como el tamaño de su cuadro como se discutió en la Lección 19 ) .
+
+    12._ Bordes y colores: cada sección debe tener un color de fondo establecido en algún color (de su elección). Establezca el color de fondo de cada región del título de la sección
+     en un color único (de su elección). Asegúrese de que el color de fondo aún permita al usuario ver el texto en la sección y en las regiones del título de la sección. Según el color 
+     que elija, es posible que desee cambiar el color del texto para que sea fácil de leer. Establezca un borde negro en la sección y en la región del título de la sección que tenga 
+     un grosor de 1 px. Advertencia: Si bien no especificar bordes y colores de acuerdo con los requisitos no afecta tanto su calificación, no hacerlo hará que sea mucho más difícil 
+     para sus compañeros calificar el resto de su tarea, lo que posiblemente resulte en una calificación mucho más baja.
+
+    13._(OPCIONAL) NO se le calificará en esto , pero es posible que desee establecer explícitamente una familia de fuentes para el texto de su página, de modo que no se quede atascado 
+    con la familia de fuentes predeterminada del navegador. Además, configure el tamaño de fuente del encabezado y el título de la sección para que sea un 75 % más grande y un 25 % más grande
+     (respectivamente) que el tamaño de fuente del texto ficticio.
